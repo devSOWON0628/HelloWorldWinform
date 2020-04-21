@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace HelloWorldWinform
 {
-    public partial class Form1 : Form
+    public partial class SOWON : Form
     {
-        public Form1()
+        public SOWON()
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("SOWON");
+        }
     }
 }
+        
